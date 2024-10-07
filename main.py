@@ -1,11 +1,11 @@
 import paho.mqtt.client as mqtt
-import json
 import time
-version = '3.1.1 '
+version = '3.1.1'
 serverIp = "192.168.5.81"
-serverPort = 1886
+serverPort = 1883 
 
 client = mqtt.Client()
+client.username_pw_set("utente", "cisco")
 
 def on_connect(clients, userdata, flags, rc):
     client.subscribe("avi/hacker")
