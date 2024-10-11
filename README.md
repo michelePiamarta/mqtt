@@ -16,3 +16,10 @@ per aggiungere un utente ad un file già esistente si usa:
 ```
 mosquitto_passwd /etc/mosquitto/password_file utente2
 ```
+
+abbiamo 4 breadboard, 2 wifiesp-wroom-32,2 kintone cable v2 for type-c
+
+pc   -> browser,ide esp 32
+rpi  -> mosquitto,node red,webdashboard
+esp32-> sensori,attuatori
+esp32-> sensori,attuatori
