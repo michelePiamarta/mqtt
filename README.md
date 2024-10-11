@@ -23,3 +23,5 @@ pc   -> browser,ide esp 32
 rpi  -> mosquitto,node red,webdashboard
 esp32-> sensori,attuatori
 esp32-> sensori,attuatori
+
+per i topic di default mettiamo /gruppo4 e poi i topic partono da li es /gruppo4/sensori
